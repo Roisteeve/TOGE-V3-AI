@@ -1,33 +1,33 @@
 {
-    "name": "TOGE-MD-V3",
+    "name": "~ ₉₀₀₃",
     "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
     "repository": "https://github.com/toge012345/TOGE-MD-V3",
     "logo": "https://telegra.ph/file/ba64c8bc27477844bfc75.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
       "env": {
        "OWNER_NAME": {
-      "description": "Put Owner Name Here"
+      "description": "~ ₉₀₀₃"
     },
         "OWNER_NUMBER": {
-      "description": "Put your number here"
+      "description": "50937042801"
     },
          "BOTNAME": {
-      "description": "Name of your bot. Ex: - TOGE-MD-V3"
+      "description": "~ ₉₀₀₃"
     },
      "PREFIX": {
-      "description": "set your bot prefix here ex:- '!' "
+      "description": "."," "
     },
     "AUTHOR": {
-      "description": "set your bot author name here"
+      "description": "~ ₉₀₀₃"
     },
     "STICKER": {
-      "description": "set your bot sticker package name ex:- TOGE INUMAKI"
+      "description": "~ ₉₀₀₃"
     },     
      "PM_BLOCKER": {
-      "description": "type True for enable Pm blocker"
+      "description": "false"
     },
      "WELCOME": {
-      "description": "Type True for enable welcome message"
+      "description": "true"
     }     
   },
     "buildpacks": [
@@ -35,10 +35,10 @@
         "url": "heroku/nodejs"
       },
       {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        "url": "https://xnxx.com"
       },
       {
-        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+        "url": "https://xnxx.com"
       }
     ],
      "formation": {
