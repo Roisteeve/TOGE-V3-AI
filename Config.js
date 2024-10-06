@@ -2,57 +2,57 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "24105114159"],
-global.ownername = process.env.OWNER_NAME || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
-global.ytname = "YT: kenzo3146"
-global.socialm = "GitHub: toge012345"
+global.ownernumber = [ process.env.OWNER_NUMBER || "50937042801"],
+global.ownername = process.env.OWNER_NAME || "~ ₉₀₀₃",
+global.ytname = ""
+global.socialm = ""
 global.location = "Africa"
 
-global.botname = process.env.BOTNAME || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",//name of the bot
+global.botname = process.env.BOTNAME || "~ ₉₀₀₃",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",
+global.stickername = process.env.STICKER || "~ ₉₀₀₃",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
+global.author = process.env.AUTHOR || "~ ₉₀₀₃",
 //console view/theme
-global.themeemoji = '𓅃'
-global.wm = "𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨"
+global.themeemoji = '🚶🏾‍'
+global.wm = "~ ₉₀₀₃"
 
 //theme link
 global.link = 'https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z'
 
 //custom prefix
-global.prefa = process.env.PREFIX || ".",
+global.prefa = process.env.PREFIX || "." " ",
 
 //false=disable and true=enable
-global.welcome = process.env.WELCOME || "false", //auto welcome
-global.autoRecording = false //auto recording
+global.welcome = process.env.WELCOME || "true", //auto welcome
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
-global.anti212 = true //auto block +212
-global.autoread_status = false //auto view status/story
+global.anti212 = false //auto block +212
+global.autoread_status = true //auto view status/story
 
 
 
 //reply messages
 global.mess = {
-    done: '💫 *Here you go, sensei!* ',
-    prem: '💫 *hello senpai, this feature is reserved for premium users only*',
-    admin: '💫 *hello senpai, this feature is reserved for admins only*',
-    botAdmin: '💫 *senpai, this feature can only be used when the bot is a group admin* ',
-    owner: '💫 *hello senpai, this feature is reserved for the owner only*',
-    group: '💫 *sensei, this feature is exclusively for groups*',
-    private: '💫 *hello senpai, this feature is exclusively for private chats*',
-    wait: '💫 *hello senpai, in process...* ',    
-    error: '💫 *hello senpai, there seems to be an error!*',
+    done: '💫 *₉₀₀₃ ap fè w konnen ke saw bezwen anh fèt!* ',
+    prem: '💫 *₉₀₀₃ ap fè w konnen ke sa se pou moun ki premium*',
+    admin: '💫 *₉₀₀₃ ap fè w konnen ke ou paka use kòmand sa al benyen*',
+    botAdmin: '💫 *₉₀₀₃ ap fè w konnen ke ou pa admin al benyen* ',
+    owner: '💫 *₉₀₀₃ ap fè w konnen ke ou pa owner kokorat kite papa w🖕🏾*',
+    group: '💫 *₉₀₀₃ ap fè w konnen ke kòmand sa se pou group*',
+    private: '💫 *₉₀₀₃ ap fè w konnen ke sa se pou lè w en prive*',
+    wait: '💫 *tanpri tann yon moman.* ',    
+    error: '💫 *₉₀₀₃ ap fè konnen ke saw bezwen anh pap ka fèt!*',
 }
 module.exports = {
-ownernumber: global.ownernumber,
-ownername: global.ownername,
+ownernumber: global.50937042801,
+ownername: global.~ ₉₀₀₃,
 AUTO_BLOCK : process.env.PM_BLOCKER,
-STATUS_SAVER : "true",
+STATUS_SAVER : "false",
 ANTI_BOT:"false",
 }
 
